@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color:rgb(105, 105, 202);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 330px;
+            height: 500px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .card img{
+            height: 59%;
+            border-radius: 10px;
+        }
+        .card h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="images/qrcode.png" alt="qrCode-img">
+            <h2>I'm Improving my frontend skills by creating Projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aut deleniti ad sint porro quia unde sit lectus a iusto. Ducimus nobis amet exercitationem nisi.</p>
+        </div>
+    </div>
+</body>
+</html>
